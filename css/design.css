@@ -1,0 +1,30 @@
+body {
+	margin: 0;
+	overflow-y: scroll;
+	text-align: center;
+}
+
+#aroundTitle {
+	position: relative;
+	top: auto;
+	left: auto;
+	right: auto;
+	height: auto;
+	z-index: 100;
+}
+
+.asciiRealButton {
+	cursor: pointer;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #464c54;
+	background-color: #dcdad5;
+}
+
+.cursorPointer {
+	cursor: pointer;
+}
+
+.cursorNotAllowed {
+	cursor: not-allowed;
+}
