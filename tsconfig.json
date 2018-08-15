@@ -1,0 +1,10 @@
+{
+	"compilerOptions": {
+		"target": "es5",
+		"outFile": "./ascii-tic-tac-toe.js.temp"
+	},
+	"include": [
+		"src/*.ts",
+		"lib/*.ts"
+	]
+}
