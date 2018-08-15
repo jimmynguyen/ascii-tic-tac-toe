@@ -29,7 +29,7 @@ $(document).ready(function() {
 		var minimaxResult = minimax(board, aiPlayer);
 		if (minimaxResult.score == 0) {
 			if (minimaxResult.index === undefined) {
-				$("#status").html("You tied!");
+				$("#status").html("You tied... (._.)");
 			} else {
 				setPosition(minimaxResult.index, aiPlayer);
 				$("#".concat(squareIds[minimaxResult.index])).html(" O ");
@@ -39,10 +39,11 @@ $(document).ready(function() {
 				setPosition(minimaxResult.index, aiPlayer);
 				$("#".concat(squareIds[minimaxResult.index])).html(" O ");
 			}
-			$("#status").html("You lost!");
+			if (winning(board, aiPlayer)) {
+				$("#status").html("You lost... (;_;)");
+			}
 		} else {
 			// never gonna happen
-			$("#status").html("You won!");
 		}
 		return false;
 	});
