@@ -29,6 +29,3 @@ type ascii-tic-tac-toe.js.temp > ascii-tic-tac-toe.js
 
 del ascii-tic-tac-toe.js.temp
 del ascii-tic-tac-toe.min.js.temp
-
-:end
-pause

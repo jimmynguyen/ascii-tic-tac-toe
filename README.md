@@ -36,6 +36,11 @@ To build the application, run the file for the respective environment from the r
 * `compile.bat` (Windows)
 * `compile.sh` (MacOS)
 
+To obtain a .zip of the bare minimum files needed to run the application, run the zip file for the respective environment:
+
+* `zip.bat` (Windows)
+* `zip.sh` (MacOS)
+
 ## Built With
 * [jQuery](https://jquery.com/)
 * [TypeScript](https://www.typescriptlang.org/)
